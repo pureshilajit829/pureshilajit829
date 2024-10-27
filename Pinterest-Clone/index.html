@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest | Tayyab Khan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <img src="https://www.freeiconspng.com/thumbs/pinterest-logo-icon/logo-pinterest-red-social-de-imagenes-32.png" alt="Pinterest Logo" class="logo">
+      <h1>Pinterest</h1>
+    </div>
+    <div class="header-right">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltixP-EcVCXI1DVTKKbLyvShrRHWdIZ7ReA&s" alt="Profile Icon" class="profile-icon">
+    </div>
+  </header>
+
+  <!-- Profile Section -->
+  <section class="profile-section">
+    <div class="cover-photo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaWbMD9iFKGkomOTva-iJ-MS3DX8A2gebwQg&s" alt="Cover Photo">
+    </div>
+    <div class="profile-info">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQltixP-EcVCXI1DVTKKbLyvShrRHWdIZ7ReA&s" alt="Profile Photo" class="profile-photo">
+      <h2>Tayyab Khan</h2>
+      <p class="profile-description">
+        <a href"cloudsbk.com/">cloudsbk.com/</a>I Am Best Programmer in HTML (hyper text markup language)
+      </p>
+      <p class="profile-stats">2M followers · 152 following · 95M monthly views</p>
+      <button><a>Share</a></button>
+      <button>Edit Profile</button>
+    </div>
+  </section>
+
+  <!-- Content Navigation -->
+  <nav class="content-nav">
+    <button id="createdButton" onclick="showContent('created')">Created</button>
+    <button id="savedButton" onclick="showContent('saved')">Saved</button>
+  </nav>
+
+  <!-- Content Section -->
+  <section class="content-section" id="content-section">
+    <div id="createdContent">
+      <p>Created content will go here.</p>
+    </div>
+    <div id="savedContent" style="display:none;">
+      <p>Saved content will go here.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
